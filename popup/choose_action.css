@@ -1,0 +1,33 @@
+html, body {
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.dump:hover {
+  background-color: #6e8bda;
+}
+
+.dump {
+  background-color: #a0bfe7;
+}
+
+.close:hover {
+  background-color: #e27070;
+}
+
+.close {
+  background-color: #fbc9c9;
+}
+
+

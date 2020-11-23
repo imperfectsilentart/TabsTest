@@ -1,0 +1,28 @@
+{
+
+  "description": "Allows user to export/log metadata of all tabs and optionally close all previously dumped tabs. Test addon for gettings started with firefox WebExtension-development and for experimenting with a possibly new feature for addon https://github.com/alct/export-tabs-urls .",
+  "manifest_version": 2,
+  "name": "TabsTest",
+  "version": "1.0",
+  "homepage_url": "https://github.com/imperfectsilentart/test",
+  "icons": {
+    "48": "icons/smile__48x48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/smile__large.png",
+    "theme_icons": [{
+        "light": "icons/smile__32x32.png",
+        "dark": "icons/smile__32x32_dark.png",
+        "size": 32
+    }],
+    "default_title": "TabsTest",
+    "default_popup": "popup/choose_action.html"
+  }
+
+}

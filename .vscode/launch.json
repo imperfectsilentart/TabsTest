@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch TabsTest WebExtension",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "addonPath": "${workspaceFolder}",
+            "clearConsoleOnReload": true,
+            "pathMappings": [
+                {
+                    "url": "moz-extension://59603173-f868-42ff-a74c-a9bcbd0a2d5e",
+                    "path": "${workspaceFolder}"
+                },
+                {
+                    "url": "moz-extension://59603173-f868-42ff-a74c-a9bcbd0a2d5e/*",
+                    "path": "${workspaceFolder}/*"
+                },
+                {
+                    "url": "moz-extension://59603173-f868-42ff-a74c-a9bcbd0a2d5e/popup/choose_action.html",
+                    "path": "${workspaceFolder}/popup/choose_action.html"
+                },
+                {
+                    "url": "moz-extension://59603173-f868-42ff-a74c-a9bcbd0a2d5e/popup/choose_action.js",
+                    "path": "${workspaceFolder}/popup/choose_action.js"
+                }
+            ]
+        }
+    ]
+}
