@@ -1,4 +1,4 @@
-# based on https://github.com/mdn/webextensions-examples/tree/master/beastify
+# TabsTest
 
 ## What it does ##
 Allows user to export/log metadata of all previously dumped tabs and optionally close all tabs.
@@ -9,3 +9,6 @@ The extension includes a browser action with a popup including HTML, CSS, and JS
 
 When the user clicks the browser action button, the popup is shown, enabling
 the user to choose between two actions.
+
+
+Based on https://github.com/mdn/webextensions-examples/tree/master/beastify .
